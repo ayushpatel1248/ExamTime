@@ -3,6 +3,7 @@ import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { useLocation } from "react-router";
+
 import axios from "axios";
 import MyImage from "../MyImage/MyImage";
 import LikeButton from "../LikeButton/LikeButton";
